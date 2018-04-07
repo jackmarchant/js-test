@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "fizzbuzz": "npm test -- fizzbuzz.test.js",
+    "n2w": "npm test -- n2w.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^20.0.4"
+  }
+}
